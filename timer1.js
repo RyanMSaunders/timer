@@ -16,5 +16,5 @@ const timer = function(...seconds) {
 
 timer(5, 6, 11, 2, 1); // returns beeps at indicated seconds
 timer(); // returns immediately without beeps
-timer(2, 4, -1, -6, -5);
-timer('hello', 'world', 2, 3);
+timer(2, 4, -1, -6, -5); // returns beeps at indicated seconds that are greater than 0
+timer('hello', 'world', 2, 3); // returns beeps at indicated seconds that are numbers
